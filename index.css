@@ -54,7 +54,11 @@ h1 {
     margin: .67em 0;
     font-size: 2em
 }
-
+@media (max-width: 400px) {
+    .u-cover-absolute {
+        width: 100%;
+    }
+}
 mark {
     color: #000;
     background: #ff0
@@ -1324,6 +1328,7 @@ textarea.w-input,textarea.w-select {
     .w-nav-brand {
         padding-left:10px
     }
+    
 }
 
 .w-lightbox-backdrop {
@@ -4296,7 +4301,7 @@ figure {
 
     .hero_img {
         aspect-ratio: 415/1254;
-        width: auto;
+        /* width: auto; */
         height: 100%;
         margin-right: 0
     }
